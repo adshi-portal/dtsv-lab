@@ -1,0 +1,11 @@
+{
+  "name": "dtsv-trainer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Інтерактивна лабораторія діагностики технологічних систем (ДТСВ, ВНТУ)",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "npx http-server . -p 8080 -c-1"
+  }
+}
